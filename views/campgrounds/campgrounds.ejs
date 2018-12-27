@@ -1,0 +1,29 @@
+
+<% include partials/header %>
+<div class="container">
+<header class="jumbotron">
+    <div class="container">
+    <h1>Camping is life and life is full of Campfire.</h1>
+    <p>Here are some of the best campgrounds in INDIA.</p>
+    <a href="/campgrounds/new" type="button" class="btn btn-primary btn-large">New Campgrounds</a>
+  
+
+</div>
+</header>
+
+<div class="row" style="display:flex; flex-wrap: wrap;">
+<% campgrounds.forEach(function(campgrounds){ %>
+<div class="col-md-3 col-sm-6">
+    
+    <div class="thumbnail">
+        <img src="<%= campgrounds.image %>">
+        <div class="caption"><h3><%= campgrounds.name %></h3></div>
+    </div>
+    
+</div>
+    
+<% }) %>
+</div>
+
+</div>
+<% include partials/footer %>
