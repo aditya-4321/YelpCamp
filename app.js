@@ -13,11 +13,11 @@ var express     = require("express"),
     indexRoutes      = require("./routes/index"),
     methodOverride   = require("method-override"),
     flash            =require("connect-flash")
-
+    
 seedDB();
+console.log(process.env.DATABASEURL)
 
-
-mongoose.connect("mongodb://aditya:lullaby1@ds243963.mlab.com:43963/indian_camps");
+mongoose.connect(process.env.DATABASEURL);
 //mongodb://aditya:ninja@111@ds243963.mlab.com:43963/indian_camps
 //mongodb://localhost/yelp_camp
 app.use(bodyparser.urlencoded({extended: true}));
