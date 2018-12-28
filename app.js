@@ -18,7 +18,7 @@ seedDB();
 console.log(process.env.DATABASEURL)
 
 mongoose.connect(process.env.DATABASEURL);
-//mongodb://aditya:ninja@111@ds243963.mlab.com:43963/indian_camps
+//mongodb://aditya:lullaby1@ds243963.mlab.com:43963/indian_camps
 //mongodb://localhost/yelp_camp
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"))
