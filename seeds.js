@@ -4,19 +4,19 @@ var Comment=require("./models/comments");
 
 var data=[
     {
-              name:"Salmon Creek",
-              image: "https://www.holidify.com/blog/wp-content/uploads/2016/08/Tsomoriri.jpg",
-              description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              name:"Spiti Valley",
+              image: "https://ihplb.b-cdn.net/wp-content/uploads/2014/12/Lahual-spiti.jpg",
+              description: "The Valley beyond"
         },
     {
-              name:"Salmon Creek",
-              image: "https://www.holidify.com/blog/wp-content/uploads/2016/08/Tsomoriri.jpg",
-              description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              name:"Jaisalmer, Rajasthan",
+              image: "https://ihplb.b-cdn.net/wp-content/uploads/2014/06/Camping-in-Jaisalmer.jpg",
+              description: "The natural setting of Jaisalmer makes it a perfect paradise for campers. Fondly known as the ‘Golden City of India’, Jaisalmer is indeed a trekker’s paradise."
         },
     {
-              name:"Salmon Creek",
-              image: "https://www.holidify.com/blog/wp-content/uploads/2016/08/Tsomoriri.jpg",
-              description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              name:"Chandertal Lake – Himachal Pradesh",
+              image: "https://ihplb.b-cdn.net/wp-content/uploads/2014/06/camping-at-Chandertal-Lake.jpg",
+              description: "Located at a high altitude in Lahaul and Spiti Valley, Chandertal Lake is situated about 4,300 meters above sea level. "
         }]
 
 function seedDB(){
