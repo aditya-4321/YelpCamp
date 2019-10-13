@@ -1,4 +1,4 @@
-# IndiaCamps
+# YelpCamp
 A website to display Campgrounds using restful convention.
 
 Front End Stack: Html5/Css3/Bootstrap/Javascript.
